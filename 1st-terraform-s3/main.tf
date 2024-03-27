@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "first_bucket" {
-    bucket = "example-first-bucket-dvit"
+    bucket = "example-first-bucket"
 }
