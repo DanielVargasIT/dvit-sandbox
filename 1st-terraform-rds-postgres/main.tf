@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 data "aws_kms_key" "by_id" {
-  key_id = "971882a5-80fb-4dbb-963a-b8dc6a6c29a1" # type KMS here
+  key_id = "00000000-0000-0000-0000-000000000000" # type KMS here
 }
 
 resource "aws_security_group" "example" {
